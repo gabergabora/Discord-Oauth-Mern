@@ -6,7 +6,7 @@ import NavBarComponent from "../Navbar"
 import {Alert} from "@material-ui/lab"
 import {authurl}  from "../App"
 class Manage extends Component {
-  constructor(props){
+  constructor(props){           
     super(props)
     this.state = {
       mutualGuilds : [],
